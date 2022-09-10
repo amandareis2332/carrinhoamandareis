@@ -12,6 +12,7 @@ class Item:
 class Cart:
     id_user: str
     items: []
+
     def __init__(self, id_user, items):
         self.id_user = id_user
         self.items = items
@@ -23,17 +24,12 @@ class Cart:
         return self.items
 
     def remove_item(self, id_product): #remover
-        self.id_product.pop(item)
+        self.id_product.pop(items)
 
     def get_item(self, id_item): #consultar
         self.cart.pop
+
+  
         
+carrinho = Cart(8888,)
 
-
- 
-        
-        
-carrinhoitem.append
-
-
-class Carrinho:
